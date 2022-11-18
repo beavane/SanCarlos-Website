@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Menu Bar</title>
+
+	<link href="css/menubar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slide.css">
+
+</head>
+<body>
+
+<header>
+<center>
+  <img src="image/logo.png" width="20%">
+     <br></center>
+</header>
+
+
+
+<div class="navigationDesktop">
+	<nav>
+    <ul>
+   <li class="active"><a href="index.html">Home</a></li>
+       <li><a href="pages/history.html">The City</a>
+           <ul>
+              <li><a href="pages/history.html">History</a></li>
+              <li><a href="pages/barangay.html">Barangays</a></li>
+              <li><a href="pages/schools.html">Schools</a>
+           </ul>
+       </li>
+      <li><a href="pages/people.html">Officials</a></li>
+       <li><a href="pages/restaurants.html">Tourism</a>
+           <ul>
+              <li><a href="pages/restaurants.html">Restaurants</a></li>
+              <li><a href="pages/resort.html">Resorts</a></li>
+              <li><a href="pages/church.html">St. Dominic Church</a>
+           </ul>
+       </li>
+       <li><a href="pages/gallery.html">Photo Gallery</a></li>
+       <li><a href="pages/aboutus.html">About Us</a></li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+       $(document).on('click', 'ul li', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+
+       })
+
+    </script>
+  </nav>
+</div>
+
+<br>
+<div class="content">
+  <hr><br>
+
+ <h2> DISCOVER AND EXPLORE THE BEAUTY OF SAN CARLOS CITY, &nbsp PANGASINAN </h2>
+
+ <div class="slider">
+   
+ </div>
+
+      <div class="container">
+    
+           <div class="left">
+                 <h3>VISION:</h3> <p> San Carlos City is envisioned to be the environment-friendly Agro-Industrial, Tourism and Education Center of Pangasinan with upbeat commercial activities structured on efficient services, harmonious relationships and peace towards sustainable development and improved qualify of life of its people.
+                 </p>
+           </div>
+
+
+          <div class="right">
+                 <h3>MISSION:</h3> <p> To make San Carlos City the economic tiger of the North through highly disciplined and committed work force and improved agro-industrial, commercial, educational and tourism initiatives thus enhancing the quality of life of its people.
+                 </p>
+           </div>
+      </div>
+
+
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<hr>
+
+</div>
+
+ <footer>
+
+ <div class="container">
+  <div class= "left"><br>
+   &copy 2019 San Carlos, Pangasinan &nbsp <br>
+   <a href ="http://pangasinan.gov.ph">pangasinan.gov.ph</a> <br>
+  <a href="https://www.facebook.com/pangasinan.gov.ph/?ref=br_rs">Government Official</a><br>
+   <a href="https://www.facebook.com/2420Pangasinan/"><img src="image/fb.png" width="25" height="25"></a>&nbsp
+   <a href="https://www.instagram.com/explore/tags/sancarlospangasinan/?hl=en"><img src="image/i.png" width="25" height="25"></a>
+   <br>
+ </div> 
+ <br>
+</div>
+ 
+
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+.header{
+	background-color:;
+	color: #228B22;
+	height: 100%;
+}
+
+.nav ul{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+.nav li{
+	display: inline-block;
+    }
+.nav ul li{
+		width: 170px;
+		background-color: #32CD32;
+		line-height: 40px;
+		text-align: center;
+		display: inline-block;
+		font-size: 18px;
+	}
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	width: 100px;
+	display: block;
+	padding: 15px;
+	font-size: 15px;
+	font-family: calibri;
+	background-attachment: fixed;
+	}
+.nav a: hover{
+	background: #228B22;
+	transition: 0.7s;
+}
+
+	}
+.nav ul li a:hover{
+		background-color: #228B22;
+		transition: 0.7s;
+	}
+.nav ul li ul li{
+		display: none;
+	}
+.nav ul li:hover ul li{
+
+		display: block;
+	}

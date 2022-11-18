@@ -1,0 +1,23 @@
+.slider{
+	width: 900px;
+	height: 500px;
+
+	background: url(../image/c.jpg);
+	margin: 80px auto;
+	animation: slide 15s infinite;
+	box-shadow: 1px 2px 10px 5px black
+}
+@keyframes slide{
+	25%{
+		background: url(../image/f.jpg);
+	}
+	50%{
+		background: url(../image/a.jpg);
+	}
+	75%{
+		background: url(../image/d.jpg);
+	}
+	100%{
+		background: url(../image/c.jpg);
+	}
+}
